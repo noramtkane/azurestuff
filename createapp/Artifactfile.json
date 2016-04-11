@@ -19,7 +19,7 @@
             "type": "string",
             "displayName": "Branch",
             "description": "Repo Branch"
-        }
+        },
         "database": {
             "type": "string",
             "displayName": "database",
@@ -29,3 +29,4 @@
     "runCommand": {
         "commandToExecute": "[concat('bash deploy.sh',parameters('repo'),' ',parameters('branch'),' ',parameters('database'))]"
     }
+}
