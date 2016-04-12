@@ -27,6 +27,6 @@
         }
     },
     "runCommand": {
-        "commandToExecute": "[concat('bash deploy.sh',parameters('repo'),' ',parameters('branch'),' ',parameters('database'))]"
+        "commandToExecute": "[concat('bash deploy.sh',' ',parameters('repo'),' ',parameters('branch'),' ',parameters('database'))]"
     }
 }
