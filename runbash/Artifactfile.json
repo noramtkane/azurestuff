@@ -12,18 +12,21 @@
         "scriptFileUris": {
             "type": "array",
             "displayName": "File URI",
-            "description": "File(s) to download to VM for execution"
+            "description": "File(s) to download to VM for execution",
+            "defaultValue": ""
         },
         "scriptToRun": {
             "type": "string",
             "displayName": "Script to Run",
-            "description": "Script file to run"
+            "description": "Script file to run",
+            "defaultValue": ""
         },
         "scriptArguments": {
             "type": "string",
             "displayName": "Script Arguments",
             "description": "Script arguments to pass",
-            "allowEmpty": true
+            "allowEmpty": true,
+            "defaultValue": ""
         }
     },
     "runAzureVMExtension": {
