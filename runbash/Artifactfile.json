@@ -13,20 +13,20 @@
             "type": "array",
             "displayName": "File URI",
             "description": "File(s) to download to VM for execution",
-            "defaultValue": ""
+            "defaultValue": "http://default"
         },
         "scriptToRun": {
             "type": "string",
             "displayName": "Script to Run",
             "description": "Script file to run",
-            "defaultValue": ""
+            "defaultValue": "default"
         },
         "scriptArguments": {
             "type": "string",
             "displayName": "Script Arguments",
             "description": "Script arguments to pass",
             "allowEmpty": true,
-            "defaultValue": ""
+            "defaultValue": "default"
         }
     },
     "runAzureVMExtension": {
